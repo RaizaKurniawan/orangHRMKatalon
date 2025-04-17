@@ -23,7 +23,5 @@ WebUI.maximizeWindow()
 
 WebUI.delay(10)
 
-Login = WebUI.getText(findTestObject(null))
-
 WebUI.closeBrowser()
 

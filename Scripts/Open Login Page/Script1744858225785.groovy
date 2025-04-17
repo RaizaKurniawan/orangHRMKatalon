@@ -21,7 +21,7 @@ WebUI.openBrowser('https://opensource-demo.orangehrmlive.com/web/index.php/auth/
 
 WebUI.maximizeWindow()
 
-WebUI.delay(15)
+WebUI.delay(14)
 
 WebUI.closeBrowser()
 

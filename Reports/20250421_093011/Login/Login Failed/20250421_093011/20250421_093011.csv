@@ -1,0 +1,70 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Failed,Chrome 135.0.7049.96,,,21-04-2025 09:30:15,21-04-2025 09:31:39,1m - 24.253s,PASSED
+,,,,,,,
+Test Cases/Login - Failed - Empty all Field,Chrome 135.0.7049.96,,,21-04-2025 09:30:15,21-04-2025 09:30:32,17.145s,PASSED
+"openBrowser("""")",Chrome 135.0.7049.96,,,21-04-2025 09:30:15,21-04-2025 09:30:18,2.612s,PASSED
+maximizeWindow(),Chrome 135.0.7049.96,,,21-04-2025 09:30:18,21-04-2025 09:30:18,0.105s,PASSED
+delay(5),Chrome 135.0.7049.96,,,21-04-2025 09:30:18,21-04-2025 09:30:23,5.125s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 135.0.7049.96,,,21-04-2025 09:30:23,21-04-2025 09:30:26,3.333s,PASSED
+delay(2),Chrome 135.0.7049.96,,,21-04-2025 09:30:26,21-04-2025 09:30:28,2.017s,PASSED
+"getText(findTestObject(""Login/Title"", [""variable"":""Login""]), CONTINUE_ON_FAILURE)",Chrome 135.0.7049.96,,,21-04-2025 09:30:28,21-04-2025 09:30:29,0.384s,PASSED
+"click(findTestObject(""Login/loginBtn""))",Chrome 135.0.7049.96,,,21-04-2025 09:30:29,21-04-2025 09:30:29,0.383s,PASSED
+delay(2),Chrome 135.0.7049.96,,,21-04-2025 09:30:29,21-04-2025 09:30:31,2.027s,PASSED
+"getText(findTestObject(""Login/UsernamerequiredState"", [""variable"":""Required""]))",Chrome 135.0.7049.96,Get Error Text,,21-04-2025 09:30:31,21-04-2025 09:30:32,0.325s,PASSED
+"getText(findTestObject(""Login/PasswordrequiredState"", [""variable"":""Required""]))",Chrome 135.0.7049.96,Get Error Text,,21-04-2025 09:30:32,21-04-2025 09:30:32,0.291s,PASSED
+closeBrowser(),Chrome 135.0.7049.96,,,21-04-2025 09:30:32,21-04-2025 09:30:32,0.220s,PASSED
+,,,,,,,
+Test Cases/Login - Failed - Empty Password,Chrome 135.0.7049.96,,,21-04-2025 09:30:32,21-04-2025 09:30:48,16.216s,PASSED
+"openBrowser("""")",Chrome 135.0.7049.96,,,21-04-2025 09:30:32,21-04-2025 09:30:33,1.068s,PASSED
+maximizeWindow(),Chrome 135.0.7049.96,,,21-04-2025 09:30:33,21-04-2025 09:30:33,0.081s,PASSED
+delay(5),Chrome 135.0.7049.96,,,21-04-2025 09:30:33,21-04-2025 09:30:38,5.018s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 135.0.7049.96,,,21-04-2025 09:30:38,21-04-2025 09:30:42,3.325s,PASSED
+delay(2),Chrome 135.0.7049.96,,,21-04-2025 09:30:42,21-04-2025 09:30:44,2.021s,PASSED
+"getText(findTestObject(""Login/Title"", [""variable"":""Login""]), CONTINUE_ON_FAILURE)",Chrome 135.0.7049.96,,,21-04-2025 09:30:44,21-04-2025 09:30:44,0.268s,PASSED
+"setText(findTestObject(""Login/Username""), ""Admin"")",Chrome 135.0.7049.96,,,21-04-2025 09:30:44,21-04-2025 09:30:45,0.621s,PASSED
+"setText(findTestObject(""Login/Password""), """")",Chrome 135.0.7049.96,Empty password,,21-04-2025 09:30:45,21-04-2025 09:30:45,0.684s,PASSED
+"click(findTestObject(""Login/loginBtn""))",Chrome 135.0.7049.96,,,21-04-2025 09:30:45,21-04-2025 09:30:46,0.364s,PASSED
+delay(2),Chrome 135.0.7049.96,,,21-04-2025 09:30:46,21-04-2025 09:30:48,2.021s,PASSED
+"getText(findTestObject(""Login/PasswordrequiredState"", [""variable"":""Required""]))",Chrome 135.0.7049.96,Get Error Text,,21-04-2025 09:30:48,21-04-2025 09:30:48,0.275s,PASSED
+closeBrowser(),Chrome 135.0.7049.96,,,21-04-2025 09:30:48,21-04-2025 09:30:48,0.265s,PASSED
+,,,,,,,
+Test Cases/Login - Failed - Empty Username,Chrome 135.0.7049.96,,,21-04-2025 09:30:48,21-04-2025 09:31:04,16.167s,PASSED
+"openBrowser("""")",Chrome 135.0.7049.96,,,21-04-2025 09:30:48,21-04-2025 09:30:49,0.958s,PASSED
+maximizeWindow(),Chrome 135.0.7049.96,,,21-04-2025 09:30:49,21-04-2025 09:30:49,0.075s,PASSED
+delay(5),Chrome 135.0.7049.96,,,21-04-2025 09:30:49,21-04-2025 09:30:54,5.007s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 135.0.7049.96,,,21-04-2025 09:30:54,21-04-2025 09:30:58,3.961s,PASSED
+delay(2),Chrome 135.0.7049.96,,,21-04-2025 09:30:58,21-04-2025 09:31:00,2.018s,PASSED
+"getText(findTestObject(""Login/Title"", [""variable"":""Login""]), CONTINUE_ON_FAILURE)",Chrome 135.0.7049.96,,,21-04-2025 09:31:00,21-04-2025 09:31:01,0.350s,PASSED
+"setText(findTestObject(""Login/Password""), ""admin1234"")",Chrome 135.0.7049.96,Invalid password,,21-04-2025 09:31:01,21-04-2025 09:31:02,0.732s,PASSED
+"click(findTestObject(""Login/loginBtn""))",Chrome 135.0.7049.96,,,21-04-2025 09:31:02,21-04-2025 09:31:02,0.395s,PASSED
+delay(2),Chrome 135.0.7049.96,,,21-04-2025 09:31:02,21-04-2025 09:31:04,2.024s,PASSED
+"getText(findTestObject(""Login/UsernamerequiredState"", [""variable"":""Required""]))",Chrome 135.0.7049.96,Get Error Text,,21-04-2025 09:31:04,21-04-2025 09:31:04,0.307s,PASSED
+closeBrowser(),Chrome 135.0.7049.96,,,21-04-2025 09:31:04,21-04-2025 09:31:04,0.188s,PASSED
+,,,,,,,
+Test Cases/Login - Failed - Invalid Password,Chrome 135.0.7049.96,,,21-04-2025 09:31:04,21-04-2025 09:31:22,17.300s,PASSED
+"openBrowser("""")",Chrome 135.0.7049.96,,,21-04-2025 09:31:05,21-04-2025 09:31:06,1.070s,PASSED
+maximizeWindow(),Chrome 135.0.7049.96,,,21-04-2025 09:31:06,21-04-2025 09:31:06,0.040s,PASSED
+delay(5),Chrome 135.0.7049.96,,,21-04-2025 09:31:06,21-04-2025 09:31:11,5.023s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 135.0.7049.96,,,21-04-2025 09:31:11,21-04-2025 09:31:14,3.375s,PASSED
+delay(2),Chrome 135.0.7049.96,,,21-04-2025 09:31:14,21-04-2025 09:31:16,2.017s,PASSED
+"getText(findTestObject(""Login/Title"", [""variable"":""Login""]), CONTINUE_ON_FAILURE)",Chrome 135.0.7049.96,,,21-04-2025 09:31:16,21-04-2025 09:31:16,0.297s,PASSED
+"setText(findTestObject(""Login/Username""), ""Admin"")",Chrome 135.0.7049.96,,,21-04-2025 09:31:16,21-04-2025 09:31:17,0.618s,PASSED
+"setText(findTestObject(""Login/Password""), ""admin1234"")",Chrome 135.0.7049.96,Invalid password,,21-04-2025 09:31:17,21-04-2025 09:31:18,0.630s,PASSED
+"click(findTestObject(""Login/loginBtn""))",Chrome 135.0.7049.96,,,21-04-2025 09:31:18,21-04-2025 09:31:19,1.570s,PASSED
+delay(2),Chrome 135.0.7049.96,,,21-04-2025 09:31:19,21-04-2025 09:31:21,2.025s,PASSED
+"getText(findTestObject(""Login/errorState"", [""variable"":""Invalid credentials""]))",Chrome 135.0.7049.96,Get Error Text,,21-04-2025 09:31:21,21-04-2025 09:31:22,0.313s,PASSED
+closeBrowser(),Chrome 135.0.7049.96,,,21-04-2025 09:31:22,21-04-2025 09:31:22,0.188s,PASSED
+,,,,,,,
+Test Cases/Login - Failed - Invalid Username,Chrome 135.0.7049.96,,,21-04-2025 09:31:22,21-04-2025 09:31:39,17.172s,PASSED
+"openBrowser("""")",Chrome 135.0.7049.96,,,21-04-2025 09:31:22,21-04-2025 09:31:23,0.952s,PASSED
+maximizeWindow(),Chrome 135.0.7049.96,,,21-04-2025 09:31:23,21-04-2025 09:31:23,0.062s,PASSED
+delay(5),Chrome 135.0.7049.96,,,21-04-2025 09:31:23,21-04-2025 09:31:28,5.020s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 135.0.7049.96,,,21-04-2025 09:31:28,21-04-2025 09:31:32,3.669s,PASSED
+delay(2),Chrome 135.0.7049.96,,,21-04-2025 09:31:32,21-04-2025 09:31:34,2.005s,PASSED
+"getText(findTestObject(""Login/Title"", [""variable"":""Login""]), CONTINUE_ON_FAILURE)",Chrome 135.0.7049.96,,,21-04-2025 09:31:34,21-04-2025 09:31:34,0.299s,PASSED
+"setText(findTestObject(""Login/Username""), ""Admin12"")",Chrome 135.0.7049.96,,,21-04-2025 09:31:34,21-04-2025 09:31:35,0.649s,PASSED
+"setText(findTestObject(""Login/Password""), ""admin123"")",Chrome 135.0.7049.96,Invalid password,,21-04-2025 09:31:35,21-04-2025 09:31:35,0.696s,PASSED
+"click(findTestObject(""Login/loginBtn""))",Chrome 135.0.7049.96,,,21-04-2025 09:31:35,21-04-2025 09:31:36,1.209s,PASSED
+delay(2),Chrome 135.0.7049.96,,,21-04-2025 09:31:36,21-04-2025 09:31:38,2.019s,PASSED
+"getText(findTestObject(""Login/errorState"", [""variable"":""Invalid credentials""]))",Chrome 135.0.7049.96,Get Error Text,,21-04-2025 09:31:38,21-04-2025 09:31:39,0.302s,PASSED
+closeBrowser(),Chrome 135.0.7049.96,,,21-04-2025 09:31:39,21-04-2025 09:31:39,0.175s,PASSED

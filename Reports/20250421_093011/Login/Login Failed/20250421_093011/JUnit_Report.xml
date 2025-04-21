@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login Failed" time="84.253" tests="5" failures="0" errors="0">
+   <testsuite name="Login Failed" tests="5" failures="0" errors="0" time="84.253" skipped="0" timestamp="21-04-2025T09:30:15" hostname="Agate - Crew - DESKTOP-4E29G9J" id="Test Suites/Login/Login Failed">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\KatalonProject\\orangHRMKatalon\\orangHRMKatalon\\Reports\\20250421_093011\\Login\\Login Failed\\20250421_093011"/>
+         <property name="logFiles" value="D:\\KatalonProject\\orangHRMKatalon\\orangHRMKatalon\\Reports\\20250421_093011\\Login\\Login Failed\\20250421_093011\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Agate - Crew - DESKTOP-4E29G9J"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="browser" value="Chrome 135.0.7049.96"/>
+         <property name="hostAddress" value="172.16.0.2"/>
+         <property name="sessionId" value="46fa290fb1c03cbab693ead0de766483"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login - Failed - Empty all Field" time="17.145" classname="Test Cases/Login - Failed - Empty all Field" status="PASSED">
+         <system-out><![CDATA[21-04-2025T09:30:15 - [TEST_CASE][PASSED] - Test Cases/Login - Failed - Empty all Field: Test Cases/Login - Failed - Empty all Field
+
+21-04-2025T09:30:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-04-2025T09:30:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-04-2025T09:30:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-04-2025T09:30:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-04-2025T09:30:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-04-2025T09:30:18 - [MESSAGE][PASSED] - Current window maximized
+
+21-04-2025T09:30:18 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-04-2025T09:30:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-04-2025T09:30:23 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+21-04-2025T09:30:26 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+21-04-2025T09:30:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-04-2025T09:30:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-04-2025T09:30:28 - [TEST_STEP][PASSED] - getText(findTestObject("Login/Title", ["variable":"Login"]), CONTINUE_ON_FAILURE): Text of object 'Object Repository/Login/Title' is: 'Login'
+
+21-04-2025T09:30:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login/Title' is: 'Login'
+
+21-04-2025T09:30:29 - [TEST_STEP][PASSED] - click(findTestObject("Login/loginBtn")): Object: 'Object Repository/Login/loginBtn' is clicked on
+
+21-04-2025T09:30:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/loginBtn' is clicked on
+
+21-04-2025T09:30:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-04-2025T09:30:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-04-2025T09:30:31 - [TEST_STEP][PASSED] - getText(findTestObject("Login/UsernamerequiredState", ["variable":"Required"])): Text of object 'Object Repository/Login/UsernamerequiredState' is: 'Required'
+
+21-04-2025T09:30:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login/UsernamerequiredState' is: 'Required'
+
+21-04-2025T09:30:32 - [TEST_STEP][PASSED] - getText(findTestObject("Login/PasswordrequiredState", ["variable":"Required"])): Text of object 'Object Repository/Login/PasswordrequiredState' is: 'Required'
+
+21-04-2025T09:30:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login/PasswordrequiredState' is: 'Required'
+
+21-04-2025T09:30:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-04-2025T09:30:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login - Failed - Empty Password" time="16.216" classname="Test Cases/Login - Failed - Empty Password" status="PASSED">
+         <system-out><![CDATA[21-04-2025T09:30:32 - [TEST_CASE][PASSED] - Test Cases/Login - Failed - Empty Password: Test Cases/Login - Failed - Empty Password
+
+21-04-2025T09:30:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-04-2025T09:30:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-04-2025T09:30:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-04-2025T09:30:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-04-2025T09:30:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-04-2025T09:30:33 - [MESSAGE][PASSED] - Current window maximized
+
+21-04-2025T09:30:33 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-04-2025T09:30:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-04-2025T09:30:38 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+21-04-2025T09:30:42 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+21-04-2025T09:30:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-04-2025T09:30:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-04-2025T09:30:44 - [TEST_STEP][PASSED] - getText(findTestObject("Login/Title", ["variable":"Login"]), CONTINUE_ON_FAILURE): Text of object 'Object Repository/Login/Title' is: 'Login'
+
+21-04-2025T09:30:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login/Title' is: 'Login'
+
+21-04-2025T09:30:44 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Login/Username'
+
+21-04-2025T09:30:45 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Login/Username'
+
+21-04-2025T09:30:45 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Password"), ""): Text '' is set on object 'Object Repository/Login/Password'
+
+21-04-2025T09:30:45 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login/Password'
+
+21-04-2025T09:30:45 - [TEST_STEP][PASSED] - click(findTestObject("Login/loginBtn")): Object: 'Object Repository/Login/loginBtn' is clicked on
+
+21-04-2025T09:30:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/loginBtn' is clicked on
+
+21-04-2025T09:30:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-04-2025T09:30:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-04-2025T09:30:48 - [TEST_STEP][PASSED] - getText(findTestObject("Login/PasswordrequiredState", ["variable":"Required"])): Text of object 'Object Repository/Login/PasswordrequiredState' is: 'Required'
+
+21-04-2025T09:30:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login/PasswordrequiredState' is: 'Required'
+
+21-04-2025T09:30:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-04-2025T09:30:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login - Failed - Empty Username" time="16.167" classname="Test Cases/Login - Failed - Empty Username" status="PASSED">
+         <system-out><![CDATA[21-04-2025T09:30:48 - [TEST_CASE][PASSED] - Test Cases/Login - Failed - Empty Username: Test Cases/Login - Failed - Empty Username
+
+21-04-2025T09:30:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-04-2025T09:30:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-04-2025T09:30:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-04-2025T09:30:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-04-2025T09:30:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-04-2025T09:30:49 - [MESSAGE][PASSED] - Current window maximized
+
+21-04-2025T09:30:49 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-04-2025T09:30:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-04-2025T09:30:54 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+21-04-2025T09:30:58 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+21-04-2025T09:30:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-04-2025T09:31:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-04-2025T09:31:00 - [TEST_STEP][PASSED] - getText(findTestObject("Login/Title", ["variable":"Login"]), CONTINUE_ON_FAILURE): Text of object 'Object Repository/Login/Title' is: 'Login'
+
+21-04-2025T09:31:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login/Title' is: 'Login'
+
+21-04-2025T09:31:01 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Password"), "admin1234"): Text 'admin1234' is set on object 'Object Repository/Login/Password'
+
+21-04-2025T09:31:02 - [MESSAGE][PASSED] - Text 'admin1234' is set on object 'Object Repository/Login/Password'
+
+21-04-2025T09:31:02 - [TEST_STEP][PASSED] - click(findTestObject("Login/loginBtn")): Object: 'Object Repository/Login/loginBtn' is clicked on
+
+21-04-2025T09:31:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/loginBtn' is clicked on
+
+21-04-2025T09:31:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-04-2025T09:31:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-04-2025T09:31:04 - [TEST_STEP][PASSED] - getText(findTestObject("Login/UsernamerequiredState", ["variable":"Required"])): Text of object 'Object Repository/Login/UsernamerequiredState' is: 'Required'
+
+21-04-2025T09:31:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login/UsernamerequiredState' is: 'Required'
+
+21-04-2025T09:31:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-04-2025T09:31:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login - Failed - Invalid Password" time="17.3" classname="Test Cases/Login - Failed - Invalid Password" status="PASSED">
+         <system-out><![CDATA[21-04-2025T09:31:04 - [TEST_CASE][PASSED] - Test Cases/Login - Failed - Invalid Password: Test Cases/Login - Failed - Invalid Password
+
+21-04-2025T09:31:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-04-2025T09:31:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-04-2025T09:31:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-04-2025T09:31:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-04-2025T09:31:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-04-2025T09:31:06 - [MESSAGE][PASSED] - Current window maximized
+
+21-04-2025T09:31:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-04-2025T09:31:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-04-2025T09:31:11 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+21-04-2025T09:31:14 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+21-04-2025T09:31:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-04-2025T09:31:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-04-2025T09:31:16 - [TEST_STEP][PASSED] - getText(findTestObject("Login/Title", ["variable":"Login"]), CONTINUE_ON_FAILURE): Text of object 'Object Repository/Login/Title' is: 'Login'
+
+21-04-2025T09:31:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login/Title' is: 'Login'
+
+21-04-2025T09:31:16 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Login/Username'
+
+21-04-2025T09:31:17 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Login/Username'
+
+21-04-2025T09:31:17 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Password"), "admin1234"): Text 'admin1234' is set on object 'Object Repository/Login/Password'
+
+21-04-2025T09:31:18 - [MESSAGE][PASSED] - Text 'admin1234' is set on object 'Object Repository/Login/Password'
+
+21-04-2025T09:31:18 - [TEST_STEP][PASSED] - click(findTestObject("Login/loginBtn")): Object: 'Object Repository/Login/loginBtn' is clicked on
+
+21-04-2025T09:31:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/loginBtn' is clicked on
+
+21-04-2025T09:31:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-04-2025T09:31:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-04-2025T09:31:21 - [TEST_STEP][PASSED] - getText(findTestObject("Login/errorState", ["variable":"Invalid credentials"])): Text of object 'Object Repository/Login/errorState' is: 'Invalid credentials'
+
+21-04-2025T09:31:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login/errorState' is: 'Invalid credentials'
+
+21-04-2025T09:31:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-04-2025T09:31:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login - Failed - Invalid Username" time="17.172" classname="Test Cases/Login - Failed - Invalid Username" status="PASSED">
+         <system-out><![CDATA[21-04-2025T09:31:22 - [TEST_CASE][PASSED] - Test Cases/Login - Failed - Invalid Username: Test Cases/Login - Failed - Invalid Username
+
+21-04-2025T09:31:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-04-2025T09:31:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-04-2025T09:31:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-04-2025T09:31:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-04-2025T09:31:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-04-2025T09:31:23 - [MESSAGE][PASSED] - Current window maximized
+
+21-04-2025T09:31:23 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-04-2025T09:31:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-04-2025T09:31:28 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+21-04-2025T09:31:32 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+21-04-2025T09:31:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-04-2025T09:31:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-04-2025T09:31:34 - [TEST_STEP][PASSED] - getText(findTestObject("Login/Title", ["variable":"Login"]), CONTINUE_ON_FAILURE): Text of object 'Object Repository/Login/Title' is: 'Login'
+
+21-04-2025T09:31:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login/Title' is: 'Login'
+
+21-04-2025T09:31:34 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Username"), "Admin12"): Text 'Admin12' is set on object 'Object Repository/Login/Username'
+
+21-04-2025T09:31:35 - [MESSAGE][PASSED] - Text 'Admin12' is set on object 'Object Repository/Login/Username'
+
+21-04-2025T09:31:35 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Password"), "admin123"): Text 'admin123' is set on object 'Object Repository/Login/Password'
+
+21-04-2025T09:31:35 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Login/Password'
+
+21-04-2025T09:31:35 - [TEST_STEP][PASSED] - click(findTestObject("Login/loginBtn")): Object: 'Object Repository/Login/loginBtn' is clicked on
+
+21-04-2025T09:31:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/loginBtn' is clicked on
+
+21-04-2025T09:31:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-04-2025T09:31:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-04-2025T09:31:38 - [TEST_STEP][PASSED] - getText(findTestObject("Login/errorState", ["variable":"Invalid credentials"])): Text of object 'Object Repository/Login/errorState' is: 'Invalid credentials'
+
+21-04-2025T09:31:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login/errorState' is: 'Invalid credentials'
+
+21-04-2025T09:31:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-04-2025T09:31:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-04-2025T09:30:15 - [TEST_SUITE][PASSED] - Login Failed: Test Cases/Login - Failed - Invalid Username]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

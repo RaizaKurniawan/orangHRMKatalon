@@ -17,11 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.delay(13)
+WebUI.delay(5)
+
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+
+WebUI.delay(2)
+
+WebUI.getText(findTestObject('Login/Title', [('variable') : 'Login']), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.setText(findTestObject('Login/Username'), 'Admin')
+
+WebUI.setText(findTestObject('Login/Password'), 'admin123')
+
+WebUI.click(findTestObject('Login/loginBtn'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('Dashboard', true)
 
 WebUI.closeBrowser()
 
